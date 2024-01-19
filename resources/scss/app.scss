@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+@import './components/navigation';
+@import './components/button';
+@import './layout/hero';
+@import './layout/workflow';
+
+// Color
+$primary-color: #15548D;
+$secondary-color: #FAC568;
+
+// Font
+* {
+    font-family: 'Outfit', sans-serif;
+  }
+  
+// Logo
+$logo-primary: url('https://res.cloudinary.com/dm2n9z3qd/image/upload/v1705563382/logo-head-gwa_b09kgf.png');
+
+body {
+    margin: 0;
+}
+
+
+

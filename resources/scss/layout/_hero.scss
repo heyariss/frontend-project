@@ -1,0 +1,92 @@
+// Color
+$primary-color: #15548D;
+$secondary-color: #FAC568;
+$hero-left-bg:url('https://res.cloudinary.com/dm2n9z3qd/image/upload/v1705618623/hero-left-bg_wx7uh2.png');
+
+header {
+    height: 720px;
+    background-color: $primary-color;
+    z-index: -1;
+.section-bg {
+    top: 0;
+    position: relative;
+    padding: 10px 0;
+
+    @media (min-width: 640px ) {
+        padding: 16px 0;
+    }
+    @media (min-width: 1024px) {
+        padding: 24px 0;
+    }
+
+    .section-container {
+        margin: 0 auto;
+        max-width: 1200px;
+        padding-left: 40px;
+        .section-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 12px;
+            @media (min-width: 1024px) {
+                grid-template-columns: 2fr 1fr;
+                grid-gap: 16px;
+            }
+            .section-image {
+                position: absolute;
+                height: 790px;
+                top: 0;
+                right: 0;
+               
+            }
+        }
+    }
+
+}
+
+
+
+.section-tagline {
+    gap: 14px;
+    display: flex;
+    margin-top: 90px;
+    align-items: center;
+    .line {
+        height: 4px;
+        width: 40px; 
+        background-color: $secondary-color;
+        border-radius: 50rem; 
+    }
+
+    h6 {
+        color: white;
+        font-size: 17px;
+        font-style: bold;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+}
+
+
+.section-subtitle {
+    max-width: 629px;
+    color: white;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+h1 {
+    margin-bottom: 16px;
+    color: #FFFFFF;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+    
+}
+
+
+
+
+
