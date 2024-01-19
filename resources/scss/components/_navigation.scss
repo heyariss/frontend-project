@@ -158,9 +158,28 @@ $secondary-color: #FAC568;
   
    .dropdown-toggle {
     color: white;
-    padding: 15px;
     text-decoration: none;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    height: 52px;
+    padding-left: 18px;
+    padding-right: 18px;
+    .lang {
+      font-size: 17px;
+      line-height: 23px;
+      text-align: center;
+      text-transform: capitalize;
+    }
+    .caret {
+      width: 20px;
+      img {
+        color: white;
+      }
+      
+     }
+
    }
 
    .dropdown-menu {
@@ -183,7 +202,4 @@ $secondary-color: #FAC568;
     background-color: $primary-color;
    }
 
-   .caret {
-    width: 14px;
-    color: white;
-   }
+   

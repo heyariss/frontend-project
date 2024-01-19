@@ -1,7 +1,4 @@
-// Color
-$primary-color: #15548D;
-$secondary-color: #FAC568;
-$dark: #1a1a1a;
+@import '../variables';
 
 button {
     outline: none;
@@ -22,4 +19,22 @@ button {
     width: 402px;
     height: 74px;
     gap: 10px;
-   }
+}
+
+div.button-default {
+    background-color: $secondary-color;
+    color: $dark;
+    display: flex;
+    width: 200px;
+    height: 48px;
+    font-size: 17px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    img {
+        width: 27px;
+    }
+}

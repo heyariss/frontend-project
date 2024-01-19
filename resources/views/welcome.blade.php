@@ -26,9 +26,9 @@
                     <div class="btn-lang">
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                               <span class="flag"></span>
-                               <span class="lang">Bahasa Indonesia</span>
-                               <span class="caret"><img src="../../../public/assets/icons/chevron-down.svg" alt="" srcset=""></span>
+                               <span class="flag"><img src="{{ URL('assets/images/flag-id.png') }}" alt="" srcset=""></span>
+                               <span class="lang">Indonesia ( ID )</span>
+                               <span class="caret"><img src="{{ URL('assets/icons/chevron-down.svg') }}" alt="" srcset=""></span>
                             </a>
                             {{-- <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
                                <li><a href="#">Bahasa Indonesia</a></li>
@@ -79,7 +79,7 @@
             <div class="container">
                 <div class="workflow-inner">
                     <div class="header">
-                        <div class="section-tagline">
+                        <div class="subheadlines">
                             <div class="line"></div>
                             <h6>OUR WORKFLOW</h6>
                         </div>
@@ -132,6 +132,57 @@
             </div>
         </section>
 
+        <!-- Section Our Service Start -->
+        <section class="our-service" id="our-service">
+            <img class="bg-service" >
+            <div class="container">
+                <div class="service-inner">
+                    <div class="header">
+                        <div class="subheadlines">
+                            <div class="line"></div>
+                            <h6>OUR SERVICE</h6>
+                        </div>
+                        <h2>Apa Saja yang Bisa Kami Bantu ?</h2>
+                    </div>
+                    <div class="service-grid">
+                        <div class="card-ourservice">
+                            <div class="icon">
+                                <img src="{{ URL('assets/icons/service-1.png') }}" alt="" srcset="">
+                            </div>
+                            <div class="number-card">01</div>
+                            <h4>Revenue<br>Management Service</h4>
+                            <div href="/" title="button" class="button-default" role="button">
+                                Saya Tertarik
+                                <img src="{{ URL('assets/icons/arrow-right.png') }}" alt="" srcset="">
+                            </div>
+                        </div>
+                        <div class="card-ourservice">
+                            <div class="icon">
+                                <img src="{{ URL('assets/icons/service-2.png') }}" alt="" srcset="">
+                            </div>
+                            <div class="number-card">02</div>
+                            <h4>Full Manage<br>Service</h4>
+                            <div href="/" title="button" class="button-default" role="button">
+                                Saya Tertarik
+                                <img src="{{ URL('assets/icons/arrow-right.png') }}" alt="" srcset="">
+                            </div>
+                        </div>
+                        <div class="card-ourservice">
+                            <div class="icon">
+                                <img src="{{ URL('assets/icons/service-3.png') }}" alt="" srcset="">
+                            </div>
+                            <div class="number-card">03</div>
+                            <h4>Asset Monetize<br>Service</h4>
+                            <div href="/" title="button" class="button-default" role="button">
+                                Saya Tertarik
+                                <img src="{{ URL('assets/icons/arrow-right.png') }}" alt="" srcset="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
 
     </body>
 </html>

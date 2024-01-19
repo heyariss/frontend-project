@@ -17,27 +17,6 @@ $secondary-color: #FAC568;
     max-width: 1200px;
 }
 
-.section-tagline {
-    gap: 14px;
-    display: flex;
-    margin-top: 90px;
-    margin-bottom: 24px;
-    align-items: center;
-    .line {
-        height: 4px;
-        width: 40px; 
-        background-color: $secondary-color;
-        border-radius: 50rem; 
-    }
-
-    h6 {
-        color: #1a1a1a;
-        font-size: 17px;
-        font-style: bold;
-        font-weight: 500;
-        text-transform: uppercase;
-    }
-}
 
 h2 {
     margin-top: 24;

@@ -1,0 +1,35 @@
+@import '../variables';
+
+.card-ourservice {
+    background: white;
+    border: 1px solid #dddddd;
+    position: relative;
+    border-radius: 32px;
+    padding: 38px 40px 38px 40px ;
+    width: 350px;
+    height: 370px;
+    padding: 0 15px;
+    .icon {
+        height: 140px;
+        width: 138px;
+    }
+    .number-card {
+        top: 36px;
+        right: 36px;
+        font-size: 32px;
+        position: absolute;
+        text-align: right;
+        color: $secondary-color;
+        font-weight: 600;
+        text-transform: uppercase;
+        line-height: 31.12px;
+        word-wrap: break-word
+    }
+    h4 {
+        color: $dark;
+        font-size: 26px;
+        font-weight: 500;
+        text-transform: capitalize;
+        line-height: 36.40px;
+    }
+}

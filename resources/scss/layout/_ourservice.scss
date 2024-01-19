@@ -1,0 +1,41 @@
+@import '../components/subheadlines';
+@import '../components/cardservice';
+@import '../components/button';
+@import '../variables';
+
+.our-service {
+    padding-top: 95px;   
+    padding-bottom: 95px;
+    background-color: $bg-light-blue;
+    z-index: 0;
+    .bg-service::after {
+        background-image: url('assets/images/design-elements.png');
+        position: absolute;
+        right: 0;
+        top: 20px;
+        height: 600px;
+        width: 500px;
+        background-size: contain;
+        background-position: right;
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
+}
+
+
+
+.service-grid {
+    gap: 85px;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: space-between;
+    @media (min-width: 640px ) {
+        padding: 16px 0;
+    }
+    @media (min-width: 1200px) {
+        padding: 24px 0;
+    }
+    
+}
