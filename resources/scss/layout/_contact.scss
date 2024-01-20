@@ -1,0 +1,84 @@
+@import '../variables';
+@import '../components/subheadlines';
+@import '../components/button';
+
+.header {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-contact {
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 0;
+    width: 400;
+}
+
+
+.section-contact {
+    background-color: $bg-light-blue;
+    padding: 65px 0;
+    height: 670px;
+    gap: 20px;
+    align-items: center;
+    .container {
+        display: flex;
+        .message-inner {
+            align-items: center;
+           
+        }
+    }
+}
+
+p {
+    color: $dark;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    align-self: stretch;
+    line-height: 36px; 
+}
+
+.message-right {
+    background: white;
+    display: flex;
+    margin-top: 0em;
+}
+
+.form {
+    gap: 48px;
+    width: 518px;
+    background-color: $bg-light-blue;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    padding: 35px;
+    .form-input {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        label {
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 500;
+        }
+        input {
+            border-radius: 12px;
+            border: 1px solid #CCC;
+            background: #FFF;
+            display: flex;
+            padding: 14px 18px;
+            align-items: center;
+            gap: 3px;
+            align-self: stretch;
+        }
+    }
+}

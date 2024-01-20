@@ -12,6 +12,7 @@
     <body>
         <!-- Header Start -->
         <header>
+            <img class="hero-img-bg" src="{{ URL('https://res.cloudinary.com/dm2n9z3qd/image/upload/v1705618623/hero-left-bg_wx7uh2.png') }}" alt="" srcset="">
             <nav class="navbar">
                 <div class="navbar-container">
                     <div class="left">
@@ -42,11 +43,10 @@
                     <span class="navbar-toggle-icon"></span>
                   </div>
                 </div>
-              </nav>
+            </nav>
              <!-- Header End -->
     
-             <section class="section-bg">
-                <img class="hero-bg">
+            <section class="section-bg">
                 <div class="section-container">
                     <div class="section-grid">
                         <div class="section-content">
@@ -181,8 +181,175 @@
                     </div>
                 </div>
             </div>
-            
         </section>
+
+        <!-- Section Lates Project Start -->
+        <section class="our-project" id="ourproject">
+            <div class="container">
+                <div class="inner-ourproject">
+                    <div class="header">
+                        <div class="subheadlines-center">
+                            <div class="line"></div>
+                            <h6>OUR Lates Project</h6>
+                            <div class="line"></div>
+                        </div>
+                        <h2 class="headline-center">Project Terbaru Kami</h2>
+                    </div>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card-project">
+                                    <img class="bg-image-project" src="{{ URL('assets/images/project-1.png') }}">
+                                    <div class="project-content">
+                                        <div class="projects-left">
+                                            <span class="subtitle-project">1/4 OPERATIONAL PROJECT</span>
+                                            <span class="title-project">Townhouse Oak</span>
+                                            <span class="desc-project">Brand tertinggi di OYO</span>
+                                        </div>
+                                        <div class="project-right">
+                                            <div class="project-box-right">
+                                                <img class="icon-right" src="{{ URL('assets/icons/arrow-right-slide.png') }}">
+                                            </div>
+                                            <span class="project-detail">Lihat Detail</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+        </section>
+        
+        <!-- Section Testimonials Start -->
+        <section class="testimonials">
+            <div class="container">
+                <div class="inner-testimoni">
+                    <div class="header">
+                        <div class="subheadlines">
+                            <div class="line"></div>
+                            <h6>OUR Testimonials</h6>
+                        </div>
+                        <h2>Yang Klien Kami Katakan</h2>
+                        <div class="client">
+                            <span class="icon-quote"><img src="{{ URL('assets/icons/left-quotes-sign.png') }}" alt="" srcset=""></span>
+                            <span class="quote-client">GWA Group membantu hotel
+                                saya untuk menjangkau lebih banyak client dan memberikan 
+                                saran monetisasi yang tidak pernah saya bayangkan sebelumnya
+                            </span>
+                        </div>
+                        <div class="testimonials-clients">
+                            <div>
+                                <img class="icon-company" src="{{ URL('assets/images/ava-client1.png') }}" alt="Company Profile">
+                            </div>
+                            <div class="name-company">
+                                <h6 class="testimonials-client-title">Chaim Desmond</h6>
+                                <p class="testimonials-client-subtitle">CEO of Yellow Hotel</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Contact Start -->
+        {{-- <section class="section-contact" id="contactForm">
+            <div class="container">
+                <div class="message-inner">
+                    <div class="header">
+                        <div class="subheadlines">
+                            <div class="line"></div>
+                            <h6>Hubungi Kami</h6>
+                        </div>
+                        <h2>Ingin Mendiskusikan<br>
+                            Bisnis Pariwisata Anda ?</h2>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="143" height="2" viewBox="0 0 143 2" fill="none">
+                                <path d="M1.28662 1.479H142.287" stroke="#ACA6A6" stroke-linecap="round"/>
+                              </svg>
+                        <p>
+                            Ada kepentingan bisnismu yang ingin didikusikan dengan kami,<br>
+                            yuk segera isi form disamping, konsultasinya gratis kok ! 
+                        </p>
+                    </div>
+                    <div class="message-right">
+                        <form class="form-inner" id="contactUs">
+                            <div class="form-group">
+                                <label for="">Nama Lengkap</label>
+                                <input type="text" name="user_name" placeholder="Masukkan Nama Lengkap" required="">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Nama Perusahaan</label>
+                                <input type="text" name="company_name" placeholder="Masukkan Nama Perusahaan" required="">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Nomor Whatsapp Aktif</label>
+                                
+                                <input type="tel" name="phone_number" placeholder="ex. 621234567890" pattern="62[0-9]{9,}" required="" title="621234567890" oninput="this.value = this.value.replace(/[^0-9+()]/g, '');">
+                            </div>
+                            <button class="submit-button" type="submit">
+                                <div class="button-content">
+                                    Konsultasikan Bisnis Saya <i class="bi bi-arrow-right"></i>
+                                </div>
+                                
+                            </button>
+                        </form>
+                        <div class="will-contact">
+                            <div class="icon">
+                                <img src="https://gwagroup.co.id/assets/iconx/time.png" alt="">
+                            </div>
+                            <h5>Kita Akan Mengkontak<br>Anda Sesegera Mungkin</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> --}}
+
+        <div class="contact ">
+            <img class="img-contact" src="{{ URL('assets/images/bg-contact.png') }}" alt="Background Line">
+            <div class="container">
+                <div class="contact-left">
+                <div class="header">
+                    <div class="subheadlines">
+                        <div class="line"></div>
+                        <h6>Hubungi Kami</h6>
+                    </div>
+                    <h2>
+                        Ingin Mendiskusikan<br>
+                        Bisnis Pariwisata Anda ?
+                    </h2>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="143" height="2" viewBox="0 0 143 2" fill="none">
+                        <path d="M1.28662 1.479H142.287" stroke="#ACA6A6" stroke-linecap="round"/>
+                    </svg>
+                    <p>
+                        Ada kepentingan bisnismu yang ingin didikusikan dengan kami,<br>
+                        yuk segera isi form disamping, konsultasinya gratis kok ! 
+                    </p>
+                </div>
+            </div>
+            <form class="contact-right">
+                <div class="form">
+                    <div class="form-input">
+                        <label for="">Nama Lengkap</label>
+                        <input type="text" placeholder="Masukkan Nama Lengkap">
+                    </div>
+                    <div class="form-input">
+                        <label for="">Nama Perusahaan</label>
+                        <input type="text" placeholder="Masukkan Nama Perusahaan">
+                    </div>
+                    <div class="form-input">
+                        <label for="">Nomor Whatsapp Aktif</label>
+                        <input type="text" placeholder="Masukkan Nomor Whatsapp">
+                    </div>
+                    <div class="button-arrow-md">
+                        <span>Jadwalkan Konsultasi</span>
+                        <img src="{{ URL('assets/icons/arrow-right.png') }}" alt="Arrow Right">
+                    </div>
+                </div>
+            </form>
+            </div>
+            
+        </div>
 
     </body>
 </html>

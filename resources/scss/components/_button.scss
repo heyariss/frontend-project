@@ -38,3 +38,20 @@ div.button-default {
         width: 27px;
     }
 }
+
+.button-arrow-md {
+    outline: none;
+    width: 438px;
+    padding: 15px 10px;
+    color: #1a1a1a;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    word-wrap: break-word;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: #FAC568;
+    border-radius: 1000px;
+    gap: 10px;
+}

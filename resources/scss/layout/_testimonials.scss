@@ -1,0 +1,59 @@
+@import '../variables';
+@import '../components/subheadlines';
+
+.header {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.testimonials {
+    height: 630px;
+    padding-top: 59px;
+    background-color: $bg-light-blue;
+}
+
+.testimonials-clients {
+    display: flex;
+    align-items: center;
+}
+
+.testimonials-right {
+    display: flex;
+}
+
+.client {
+    gap: 23px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 38px;
+    padding-top: 32px;
+    // width: 450px;
+    // max-width: 1200px;
+    // left: 0;
+    // width: 76rem;
+    
+    // padding-left: 14.7rem;
+    .quote-client {
+        color: $dark;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 300;
+    }
+}
+
+.inner-testimonials {
+    display: flex;
+}
+.icon-company {
+    height: 95px;
+    width: 95px;
+    border-radius: 50%;
+}
+.img-right {
+    right: 0;
+}
+
+
+
+
+  

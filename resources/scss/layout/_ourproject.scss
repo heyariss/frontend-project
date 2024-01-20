@@ -1,0 +1,60 @@
+@import '../variables';
+.our-project {
+    padding-bottom: 79px;
+    height: 703px;
+}
+.card-project {
+    margin-top: 52px;
+    display: flex;
+    justify-content: center;
+    .bg-image-project {
+        background-color: white;
+        border-radius: 50px;
+        opacity: 70%;
+        align-items: center;
+        position: absolute;
+    }
+    .project-content {
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 11rem;
+        z-index: 1;
+        .project-left {
+            display: flex;
+            flex-direction: column;
+            gap: 26px;
+        }
+        .project-right {
+            display: flex;
+            align-items: center;
+            align-self: end;
+            margin-right: 15rem;
+            padding-bottom: 6rem;
+            gap: 2rem;
+            cursor: pointer;
+        }
+    }
+}
+
+.subtitle-project {
+    color: $dark;
+    opacity: 100%;
+    font-size: 22px;
+    font-style: normal;
+    text-align: left;
+    font-weight: 500;
+    letter-spacing: 0.66px;
+    z-index: 2;
+
+}
+
+.title-project {
+    font-size: 53px;
+    font-weight: 600
+}
+
+.desc-project {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+}
