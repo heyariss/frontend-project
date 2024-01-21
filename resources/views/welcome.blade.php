@@ -254,102 +254,44 @@
         </section>
 
         <!-- Section Contact Start -->
-        {{-- <section class="section-contact" id="contactForm">
-            <div class="container">
-                <div class="message-inner">
-                    <div class="header">
+        <section class="contact">
+                <div class="container">
+                    <div class="text-left">
                         <div class="subheadlines">
                             <div class="line"></div>
                             <h6>Hubungi Kami</h6>
                         </div>
-                        <h2>Ingin Mendiskusikan<br>
-                            Bisnis Pariwisata Anda ?</h2>
+                        <h2>Ingin Mendiskusikan<br>Bisnis Pariwisata Anda ?</h2>
+                        <div>
                             <svg xmlns="http://www.w3.org/2000/svg" width="143" height="2" viewBox="0 0 143 2" fill="none">
                                 <path d="M1.28662 1.479H142.287" stroke="#ACA6A6" stroke-linecap="round"/>
-                              </svg>
-                        <p>
-                            Ada kepentingan bisnismu yang ingin didikusikan dengan kami,<br>
-                            yuk segera isi form disamping, konsultasinya gratis kok ! 
-                        </p>
+                            </svg>
+                        </div>
+                        <p>Ada kepentingan bisnismu yang ingin didikusikan dengan kami, yuk segera isi form disamping, konsultasinya gratis kok !</p>
                     </div>
-                    <div class="message-right">
-                        <form class="form-inner" id="contactUs">
+                    <div class="form-right">
+                        <form class="form" id="contactUs">
                             <div class="form-group">
                                 <label for="">Nama Lengkap</label>
-                                <input type="text" name="user_name" placeholder="Masukkan Nama Lengkap" required="">
+                                <input type="text" placeholder="Masukkan Nama Lengkap">
                             </div>
                             <div class="form-group">
                                 <label for="">Nama Perusahaan</label>
-                                <input type="text" name="company_name" placeholder="Masukkan Nama Perusahaan" required="">
+                                <input type="text" name="company_name" placeholder="Masukkan Nama Perusahaan">
                             </div>
                             <div class="form-group">
                                 <label for="">Nomor Whatsapp Aktif</label>
                                 
-                                <input type="tel" name="phone_number" placeholder="ex. 621234567890" pattern="62[0-9]{9,}" required="" title="621234567890" oninput="this.value = this.value.replace(/[^0-9+()]/g, '');">
+                                <input type="tel" name="phone_number" placeholder="ex. 621234567890" pattern="62[0-9]{9,}" title="621234567890">
                             </div>
-                            <button class="submit-button" type="submit">
-                                <div class="button-content">
+                            <div class="submit-button" type="submit">
+                                <div class="button-arrow-md">
                                     Konsultasikan Bisnis Saya <i class="bi bi-arrow-right"></i>
-                                </div>
-                                
-                            </button>
-                        </form>
-                        <div class="will-contact">
-                            <div class="icon">
-                                <img src="https://gwagroup.co.id/assets/iconx/time.png" alt="">
+                                </div> 
                             </div>
-                            <h5>Kita Akan Mengkontak<br>Anda Sesegera Mungkin</h5>
-                        </div>
-                    </div>
+                        </form>
                 </div>
-            </div>
-        </section> --}}
-
-        <div class="contact ">
-            <img class="img-contact" src="{{ URL('assets/images/bg-contact.png') }}" alt="Background Line">
-            <div class="container">
-                <div class="contact-left">
-                <div class="header">
-                    <div class="subheadlines">
-                        <div class="line"></div>
-                        <h6>Hubungi Kami</h6>
-                    </div>
-                    <h2>
-                        Ingin Mendiskusikan<br>
-                        Bisnis Pariwisata Anda ?
-                    </h2>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="143" height="2" viewBox="0 0 143 2" fill="none">
-                        <path d="M1.28662 1.479H142.287" stroke="#ACA6A6" stroke-linecap="round"/>
-                    </svg>
-                    <p>
-                        Ada kepentingan bisnismu yang ingin didikusikan dengan kami,<br>
-                        yuk segera isi form disamping, konsultasinya gratis kok ! 
-                    </p>
-                </div>
-            </div>
-            <form class="contact-right">
-                <div class="form">
-                    <div class="form-input">
-                        <label for="">Nama Lengkap</label>
-                        <input type="text" placeholder="Masukkan Nama Lengkap">
-                    </div>
-                    <div class="form-input">
-                        <label for="">Nama Perusahaan</label>
-                        <input type="text" placeholder="Masukkan Nama Perusahaan">
-                    </div>
-                    <div class="form-input">
-                        <label for="">Nomor Whatsapp Aktif</label>
-                        <input type="text" placeholder="Masukkan Nomor Whatsapp">
-                    </div>
-                    <div class="button-arrow-md">
-                        <span>Jadwalkan Konsultasi</span>
-                        <img src="{{ URL('assets/icons/arrow-right.png') }}" alt="Arrow Right">
-                    </div>
-                </div>
-            </form>
-            </div>
-            
-        </div>
+            </section>
 
     </body>
 </html>
