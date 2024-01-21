@@ -1,9 +1,5 @@
-// Logo
-$logo-primary: url('https://res.cloudinary.com/dm2n9z3qd/image/upload/v1705563382/logo-head-gwa_b09kgf.png');
-$content-width: 1000px;
-// Color
-$primary-color: #15548D;
-$secondary-color: #FAC568;
+@import '../variables';
+
 
 .navbar {
     background-color: transparent;

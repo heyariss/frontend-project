@@ -255,43 +255,119 @@
 
         <!-- Section Contact Start -->
         <section class="contact">
-                <div class="container">
-                    <div class="text-left">
-                        <div class="subheadlines">
-                            <div class="line"></div>
-                            <h6>Hubungi Kami</h6>
-                        </div>
-                        <h2>Ingin Mendiskusikan<br>Bisnis Pariwisata Anda ?</h2>
-                        <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="143" height="2" viewBox="0 0 143 2" fill="none">
-                                <path d="M1.28662 1.479H142.287" stroke="#ACA6A6" stroke-linecap="round"/>
-                            </svg>
-                        </div>
-                        <p>Ada kepentingan bisnismu yang ingin didikusikan dengan kami, yuk segera isi form disamping, konsultasinya gratis kok !</p>
+            <div class="container">
+                <div class="text-left">
+                    <div class="subheadlines">
+                        <div class="line"></div>
+                        <h6>Hubungi Kami</h6>
                     </div>
-                    <div class="form-right">
-                        <form class="form" id="contactUs">
-                            <div class="form-group">
-                                <label for="">Nama Lengkap</label>
-                                <input type="text" placeholder="Masukkan Nama Lengkap">
-                            </div>
-                            <div class="form-group">
-                                <label for="">Nama Perusahaan</label>
-                                <input type="text" name="company_name" placeholder="Masukkan Nama Perusahaan">
-                            </div>
-                            <div class="form-group">
-                                <label for="">Nomor Whatsapp Aktif</label>
-                                
-                                <input type="tel" name="phone_number" placeholder="ex. 621234567890" pattern="62[0-9]{9,}" title="621234567890">
-                            </div>
-                            <div class="submit-button" type="submit">
-                                <div class="button-arrow-md">
-                                    Konsultasikan Bisnis Saya <i class="bi bi-arrow-right"></i>
-                                </div> 
-                            </div>
-                        </form>
+                    <h2>Ingin Mendiskusikan<br>Bisnis Pariwisata Anda ?</h2>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="143" height="2" viewBox="0 0 143 2" fill="none">
+                            <path d="M1.28662 1.479H142.287" stroke="#ACA6A6" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <p>Ada kepentingan bisnismu yang ingin<br>didikusikan dengan kami, yuk segera isi form<br>disamping, konsultasinya gratis kok !</p>
                 </div>
-            </section>
+                <div class="form-right">
+                    <form class="form" id="contactUs">
+                        <div class="form-group">
+                            <label for="">Nama Lengkap</label>
+                            <input type="text" placeholder="Masukkan Nama Lengkap">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Nama Perusahaan</label>
+                            <input type="text" name="company_name" placeholder="Masukkan Nama Perusahaan">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Nomor Whatsapp Aktif</label>
+                            <input type="tel" name="phone_number" placeholder="ex. 621234567890">
+                        </div>
+                        <div class="submit-button" type="submit">
+                            <div class="button-arrow-md">
+                                Konsultasikan Bisnis Saya <i class="bi bi-arrow-right"></i>
+                            </div> 
+                        </div>
+                    </form>
+                </div>
+        </section>
 
+        <!-- Section Footer Start -->
+        <section class="footer">
+            <img class="backlines" src="{{ URL('https://res.cloudinary.com/dm2n9z3qd/image/upload/v1705838101/backlines_buvg3d.png') }}">
+            <div class="container">
+                <div class="footer-inner">
+                    <div class="footer-brand">
+                        <img src="{{ URL('https://res.cloudinary.com/dm2n9z3qd/image/upload/v1705562919/logo-gwa_eod2b3.png') }}" class="logo-footer" alt="">
+                    </div>
+                    <div class="footer-row">
+                        <div class="footer-col">
+                            <h6>Halaman Utama</h6>
+                            <div class="nav-list">
+                                <a href="/">
+                                    <p>Homepage</p>
+                                </a>
+                                <a href="/">
+                                    <p>Daftar Hotel</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer-col">
+                            <h6>Perusahaan</h6>
+                            <div class="nav-list">
+                                <a href="/">
+                                    <p>Tentang Kami</p>
+                                </a>
+                                <a href="/">
+                                    <p>Brand Kami</p>
+                                </a>
+                                <a href="/">
+                                    <p>Performa Kami</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer-col">
+                            <h6>Temukan Kami</h6>
+                            <div class="nav-list">
+                                
+                                <a href="/">
+                                    <p>Hubungi Kami</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer-col">
+                            <h6>Media Sosial</h6>
+                            <div class="social-media">
+                                <a href="/"><img src="{{ URL('https://res.cloudinary.com/dm2n9z3qd/image/upload/v1705847071/fb_j76rjp.png') }}" alt=""></a>
+                                <a href="/"><img src="{{ URL('https://res.cloudinary.com/dm2n9z3qd/image/upload/v1705847138/yt_pcoqy5.png') }}" alt=""></a>
+                                <a href="/"><img src="{{ URL('https://res.cloudinary.com/dm2n9z3qd/image/upload/v1705852681/ig_b4xnpj.png') }}" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divider-line"></div>
+                    <div class="footer-action-row">
+                        <div class="document-box">
+                            <a href="#">
+                                <p>Pemberitahuan Privasi</p>
+                            </a>
+                            <a href="#">
+                                <p>Syarat dan Ketentuan</p>
+                            </a>
+                        </div>
+                        <div class="translate-row">
+                            <img class="img-translite" src="https://res.cloudinary.com/dm2n9z3qd/image/upload/v1705844771/translate_krtp3f.png">
+                            <select name="" id="" class="custom-select">
+                                <option value="id">Bahasa Indonesia
+                                </option>
+                                <option value="en">English</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <p>© 2024 Graha Wisata Kita | PT Graha Wisata Kita Tbk. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
